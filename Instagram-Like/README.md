@@ -1,4 +1,11 @@
-# Instagram Like 
-## Instagram Love React using JS
+# Instagram-Like
 
-![Instagram like](https://github.com/fadyehabamer/Instagram-Like/blob/master/Capture.PNG)
+Instagram Love react using vanilla Js
+
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/react-lab/Instagram-Like/)
+
+**Built with:** HTML
+**Topics:** `instagram`, `like`, `css`, `javascript`
+
+---
+↩ Part of the [**react-lab**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

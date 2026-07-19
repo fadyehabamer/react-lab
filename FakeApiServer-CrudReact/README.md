@@ -1,10 +1,11 @@
-# Fake Api Server + React Crud Operations
+# FakeApiServer-CrudReact
 
-> using **FakeServer** and Dealing with server using **Axios**
+Fake Api Server + React Crud Operations
 
-### Features
-- Get Data From Server ✅
-- Add New Employees ❎
-- Delete Employees ✅
-- Edit Employees ❎
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/react-lab/FakeApiServer-CrudReact/)
 
+**Built with:** HTML
+**Topics:** `fakeapi`, `crud-application`, `reactjs`
+
+---
+↩ Part of the [**react-lab**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

@@ -1,12 +1,9 @@
-# ReactNative WebView Application
-> Web View Application built with React Native 
+# ReactNative-WebView
 
-### Steps to run
-- Open CLI
-- npm install
-  - to install all dependancies
-- expo start
-  - to start application to run on Simulator
-  - Won't run on Web
-  - run on android physical mobile phone or using QR Code Generated 
-    - by typing 'a' aka 'Android'
+React Native Example for a Web View Application
+
+**Built with:** JavaScript
+**Topics:** `react-native`, `web-view`, `cross-platform`, `expo`, `expo-cli`
+
+---
+↩ Part of the [**react-lab**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)
