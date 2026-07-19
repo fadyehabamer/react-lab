@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c33;
+}
+.react{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.react-logo{
+    position: absolute;
+    border: 0.45rem solid #55dbf8;
+    height: 4rem;
+    width: 11rem;
+    border-radius: 250%;
+}
+.react-logo1{
+    transform: rotate(60deg);
+}
+.react-logo2{
+    transform: rotate(-60deg);
+}
+.react-logo3{
+    height: 2rem;
+    width: 2rem;
+    background-color: #55dbf8;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+
+
+
+
