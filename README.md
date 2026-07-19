@@ -6,7 +6,7 @@
 
 | Demo | Description | Preview |
 |------|-------------|---------|
-| [`FakeApiServer-CrudReact`](./FakeApiServer-CrudReact/) | Fake Api Server + React Crud Operations | [🔗 Live](https://fadyehabamer.github.io/react-lab/FakeApiServer-CrudReact/Bootstrap React fake api/react-fakeapi/public/) |
+| [`FakeApiServer-CrudReact`](./FakeApiServer-CrudReact/) | Fake Api Server + React Crud Operations | [🔗 Live](https://fadyehabamer.github.io/react-lab/FakeApiServer-CrudReact/) |
 | [`Instagram-Like`](./Instagram-Like/) | Instagram Love react using vanilla Js | [🔗 Live](https://fadyehabamer.github.io/react-lab/Instagram-Like/) |
 | [`ReactJS-Logo`](./ReactJS-Logo/) | React js logo with CSS3 | [🔗 Live](https://fadyehabamer.github.io/react-lab/ReactJS-Logo/) |
 | [`ReactNative-WebView`](./ReactNative-WebView/) | React Native Example for a Web View Application | — |
