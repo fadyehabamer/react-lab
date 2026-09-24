@@ -92,12 +92,12 @@ export default class App extends React.Component {
                   {
                     this.state.empList.map((emp, idx) => {
                       return (
-                        <tr>
+                        <tr key={emp.id ?? idx}>
                           <th scope="row">{idx + 1}</th>
                           <td>{emp.name}</td>
                           <td>{emp.dept}</td>
                           <td>{emp.salary}</td>
-                          <td> <button type="button" class="btn btn-outline-danger" onClick={() => this.removeEmp(emp.id)}>Delete Employee</button> </td>
+                          <td> <button type="button" className="btn btn-outline-danger" onClick={() => this.removeEmp(emp.id)}>Delete Employee</button> </td>
                           {/* <td> <button type="button" class="btn btn-outline-success" onClick={() => this.EditEmp(emp.id, emp)}>Edit Employee</button> </td> */}
                         </tr>
                       )
@@ -115,7 +115,7 @@ export default class App extends React.Component {
                     Add New Employee
                   </h1>
 
-                  <input type="text" class="form-control mb-3" placeholder="ID" aria-describedby="basic-addon1"
+                  <input type="text" className="form-control mb-3" placeholder="ID" aria-describedby="basic-addon1"
                     value={this.state.id}
                     onChange={
                       (e) => this.setState({
@@ -123,7 +123,7 @@ export default class App extends React.Component {
                       })
                     }
                   />
-                  <input type="text" class="form-control mb-3" placeholder="Name" aria-describedby="basic-addon1"
+                  <input type="text" className="form-control mb-3" placeholder="Name" aria-describedby="basic-addon1"
                     value={this.state.name}
                     onChange={
                       (e) => this.setState({
@@ -131,7 +131,7 @@ export default class App extends React.Component {
                       })
                     }
                   />
-                  <input type="text" class="form-control mb-3" placeholder="Dept" aria-describedby="basic-addon1"
+                  <input type="text" className="form-control mb-3" placeholder="Dept" aria-describedby="basic-addon1"
                     value={this.state.dept}
                     onChange={
                       (e) => this.setState({
@@ -140,7 +140,7 @@ export default class App extends React.Component {
                     }
 
                   />
-                  <input type="text" class="form-control mb-3" placeholder="Salary" aria-describedby="basic-addon1"
+                  <input type="text" className="form-control mb-3" placeholder="Salary" aria-describedby="basic-addon1"
                     value={this.state.salary}
                     onChange={
                       (e) => this.setState({
