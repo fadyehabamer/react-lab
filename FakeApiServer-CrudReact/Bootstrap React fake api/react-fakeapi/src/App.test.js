@@ -1,8 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// App fetches employees from the local json-server on mount; keep that request
+// pending so the test runs offline and only checks the initial render.
+jest.mock('axios', () => () => new Promise(() => {}));
+
+test('renders the loading state before employees are fetched', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const loading = screen.getByText(/loading data/i);
+  expect(loading).toBeInTheDocument();
 });
