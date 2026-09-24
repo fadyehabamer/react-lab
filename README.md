@@ -2,11 +2,11 @@
 
 > React practice apps & experiments
 
-**4 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/react-lab/)** — every demo is deployed to GitHub Pages.
+**4 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/react-lab/)** — the static demos are deployed to GitHub Pages.
 
 | Demo | Description | Preview |
 |------|-------------|---------|
-| [`FakeApiServer-CrudReact`](./FakeApiServer-CrudReact/) | Fake Api Server + React Crud Operations | [🔗 Live](https://fadyehabamer.github.io/react-lab/FakeApiServer-CrudReact/) |
+| [`FakeApiServer-CrudReact`](./FakeApiServer-CrudReact/) | Fake Api Server + React Crud Operations | Run locally ([how](https://fadyehabamer.github.io/react-lab/FakeApiServer-CrudReact/)) |
 | [`Instagram-Like`](./Instagram-Like/) | Instagram Love react using vanilla Js | [🔗 Live](https://fadyehabamer.github.io/react-lab/Instagram-Like/) |
 | [`ReactJS-Logo`](./ReactJS-Logo/) | React js logo with CSS3 | [🔗 Live](https://fadyehabamer.github.io/react-lab/ReactJS-Logo/) |
 | [`ReactNative-WebView`](./ReactNative-WebView/) | React Native Example for a Web View Application | — |

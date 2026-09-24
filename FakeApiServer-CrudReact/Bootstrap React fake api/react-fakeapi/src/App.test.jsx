@@ -3,7 +3,7 @@ import App from './App';
 
 // App fetches employees from the local json-server on mount; keep that request
 // pending so the test runs offline and only checks the initial render.
-jest.mock('axios', () => () => new Promise(() => {}));
+vi.mock('axios', () => ({ default: () => new Promise(() => {}) }));
 
 test('renders the loading state before employees are fetched', () => {
   render(<App />);
