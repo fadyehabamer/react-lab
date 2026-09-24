@@ -32,7 +32,7 @@ export default class App extends React.Component {
       "salary": this.state.salary
     }
 
-    axios.post("http://localhost:3000/Employees", newEmp).then(res => {
+    axios.post("http://localhost:3000/Employees", newEmp).then(() => {
       this.getInfo()
     })
   }
