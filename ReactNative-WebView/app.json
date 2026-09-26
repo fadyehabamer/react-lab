@@ -24,6 +24,10 @@
     "web": {
       "favicon": "./assets/icon.png"
     },
-    "description": ""
+    "description": "",
+    "plugins": [
+      "expo-splash-screen",
+      "expo-status-bar"
+    ]
   }
 }
