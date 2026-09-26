@@ -26,7 +26,8 @@ package.json
 ```bash
 git clone https://github.com/fadyehabamer/react-lab.git
 cd react-lab/ReactNative-WebView
-# then open index.html in your browser
+npm install
+npx expo start
 ```
 
 **Topics:** `react-native` `web-view` `cross-platform` `expo` `expo-cli`
